@@ -43,7 +43,7 @@ def correlacao_pearson(x, y):
     sy = desvio_padrao(y)
     return cov / (sx * sy)
 
-def regrecao_linear_simples(x, y):
+def regressao_linear_simples(x, y):
     mx, my = media(x), media(y)
     b1 = covariavel(x, y, amostral=True) / variancia(x, amostral=True)
     b0 = my - b1 * mx
