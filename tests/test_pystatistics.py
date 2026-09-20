@@ -1,6 +1,13 @@
+import math
 import numpy as np
 from scipy import stats
-from src.minhastats import media, mediana, variancia, desvio_padrao, correlacao_pearson
+from src.core.pystatistics import (
+    media,
+    mediana,
+    variancia,
+    desvio_padrao,
+    correlacao_pearson
+)
 
 dados = [10, 12, 23, 23, 16, 23, 21, 16]
 
